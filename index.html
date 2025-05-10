@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu EL FALLAH</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Menu EL FALLAH</h1>
+        </header>
+        
+        <div id="menu-categories">
+            <button class="category-btn active" data-category="appetizers">Plats</button>
+            <button class="category-btn" data-category="main-courses">Sandwiches</button>
+            <button class="category-btn" data-category="desserts">Pizzas</button>
+            <button class="category-btn" data-category="drinks">Boissons</button>
+        </div>
+
+        <div id="menu-items">
+            <!-- Plats -->
+            <div class="menu-category" id="appetizers">
+                <div class="menu-item">
+                    <h3>Escalope</h3>
+                    <span class="price">15.00 DT</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Poulet</h3>
+                    <span class="price">10.00 DT</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Ojja Merguez</h3>
+                    <span class="price">10.00 DT</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Ojja Escalope</h3>
+                    <span class="price">10.00 DT</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Ojja Fruit De Mer</h3>
+                    <span class="price">15.00 DT</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Spaghetti</h3>
+                    <span class="price">14.00 DT</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Grillade Mixte</h3>
+                    <span class="price">30.00 DT</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Loubya</h3>
+                    <span class="price">10.00 DT</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Couscous</h3>
+                    <span class="price">12.00 DT</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Riz</h3>
+                    <span class="price">14.0 DT</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Poissons</h3>
+                    <span class="price">20.00 DT</span>
+                </div>
+            </div>
+
+            <!-- Sandwiches -->
+            <div class="menu-category hidden" id="main-courses">
+                <div class="sandwich-group">
+                    <div class="menu-item sandwich-header">
+                        <h3>Tabouna</h3>
+                    </div>
+                    <div class="sandwich-variants">
+                        <div class="sandwich-variant">
+                            <span class="sandwich-name">Escalope</span>
+                            <span class="price">6.00 DT</span>
+                        </div>
+                        <div class="sandwich-variant">
+                            <span class="sandwich-name">Thon</span>
+                            <span class="price">5.00 DT</span>
+                        </div>
+                        <div class="sandwich-variant">
+                            <span class="sandwich-name">Kaftaji</span>
+                            <span class="price">4.00 DT</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sandwich-group">
+                    <div class="menu-item sandwich-header">
+                        <h3>Makloub</h3>
+                    </div>
+                    <div class="sandwich-variants">
+                        <div class="sandwich-variant">
+                            <span class="sandwich-name">Thon</span>
+                            <span class="price">7.50 DT</span>
+                        </div>
+                        <div class="sandwich-variant">
+                            <span class="sandwich-name">Escalope</span>
+                            <span class="price">8.00 DT</span>
+                        </div>
+                        <div class="sandwich-variant">
+                            <span class="sandwich-name">Poulet</span>
+                            <span class="price">8.00 DT</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sandwich-group">
+                    <div class="menu-item sandwich-header">
+                        <h3>Libanais</h3>
+                    </div>
+                    <div class="sandwich-variants">
+                        <div class="sandwich-variant">
+                            <span class="sandwich-name">Thon</span>
+                            <span class="price">8.00 DT</span>
+                        </div>
+                        <div class="sandwich-variant">
+                            <span class="sandwich-name">Escalope</span>
+                            <span class="price">8.50 DT</span>
+                        </div>
+                        <div class="sandwich-variant">
+                            <span class="sandwich-name">Poulet</span>
+                            <span class="price">8.50 DT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pizzas -->
+            <div class="menu-category hidden" id="desserts">
+                <div class="menu-item">
+                    <h3>Margarita</h3>
+                    <span class="price">12.00 DT</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Thon</h3>
+                    <span class="price">15.00 DT</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Escalope</h3>
+                    <span class="price">17.00 DT</span>
+                </div>
+                <div class="menu-item">
+                    <h3>4 Saisons</h3>
+                    <span class="price">18.00 DT</span>
+                </div>
+            </div>
+
+            <!-- Boissons -->
+            <div class="menu-category hidden" id="drinks">
+                <div class="menu-item">
+                    <h3>Canette Soda</h3>
+                    <span class="price">2.50 DT</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Boite Soda</h3>
+                    <span class="price">1.50 DT</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Boite Soda 1L</h3>
+                    <span class="price">4.00 DT</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Eau Minérale</h3>
+                    <span class="price">1.50 DT</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/menu.js"></script>
+</body>
+</html>
